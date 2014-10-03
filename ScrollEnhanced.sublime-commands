@@ -1,0 +1,23 @@
+[
+  {
+    "caption": "ScrollEnhanced: scroll up",
+    "command": "scroll_lines_enhanced",
+    "args": {
+      "amount": -20
+    },
+    "context": [
+      {"key": "overlay_visible", "operator": "equal", "operand": false}
+    ]
+  },
+
+  {
+    "caption": "ScrollEnhanced: scroll down",
+    "command": "scroll_lines_enhanced",
+    "args": {
+      "amount": 20
+    },
+    "context": [
+      {"key": "overlay_visible", "operator": "equal", "operand": false}
+    ]
+  }
+]

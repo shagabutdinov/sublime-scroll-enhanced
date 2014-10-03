@@ -1,0 +1,23 @@
+[
+  {
+    "keys": ["alt+ctrl+i"],
+    "command": "scroll_lines_enhanced",
+    "args": {
+      "amount": -20
+    },
+    "context": [
+      {"key": "overlay_visible", "operator": "equal", "operand": false}
+    ]
+  },
+
+  {
+    "keys": ["alt+ctrl+k"],
+    "command": "scroll_lines_enhanced",
+    "args": {
+      "amount": 20
+    },
+    "context": [
+      {"key": "overlay_visible", "operator": "equal", "operand": false}
+    ]
+  }
+]
