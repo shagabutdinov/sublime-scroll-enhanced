@@ -6,7 +6,7 @@ scrolling.
 
 ### Demo
 
-![Demo](https://raw.github.com/shagabutdinov/sublime-scroll-enhanced/master/demo/demo.gif "Demo")
+![Demo](https://github.com/shagabutdinov/sublime-enhanced-demos/raw/master/scroll_enhanced.gif "Demo")
 
 
 ### Reason
@@ -43,3 +43,8 @@ Hit keyboard shortcut to scroll.
 |-------------------|-------------------|-----------------------------|
 | Scroll lines up   | alt+ctrl+i        | ScrollEnhanced: scroll up   |
 | Scroll lines down | alt+ctrl+k        | ScrollEnhanced: scroll down |
+
+
+### Dependencies
+
+None

@@ -6,6 +6,7 @@
       "amount": -20
     },
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "overlay_visible", "operator": "equal", "operand": false}
     ]
   },
@@ -17,6 +18,7 @@
       "amount": 20
     },
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "overlay_visible", "operator": "equal", "operand": false}
     ]
   }
