@@ -21,5 +21,29 @@
       {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "overlay_visible", "operator": "equal", "operand": false}
     ]
+  },
+
+  {
+    "keys": ["alt+["],
+    "command": "scroll_lines_enhanced",
+    "args": {
+      "horizontal_amount": -20
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+      {"key": "overlay_visible", "operator": "equal", "operand": false}
+    ]
+  },
+
+  {
+    "keys": ["alt+]"],
+    "command": "scroll_lines_enhanced",
+    "args": {
+      "horizontal_amount": 20
+    },
+    "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
+      {"key": "overlay_visible", "operator": "equal", "operand": false}
+    ]
   }
 ]
